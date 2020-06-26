@@ -9,8 +9,10 @@ Any commercial use is strictly forbidden without the written permission of the a
 -> Full frontal masked face detector.
 
 -->
-<opencv_storage xmlns:tools="http://schemas.android.com/tools"
-    tools:ignore="MissingDefaultResource">
+<opencv_storage
+
+
+   >
 <cascade>
   <stageType>BOOST</stageType>
   <featureType>LBP</featureType>
