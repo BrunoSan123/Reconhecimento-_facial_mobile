@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_analysis_replace_frame"
+        android:icon="@drawable/ic_analysis_replace_frame"
+        android:title="@string/analysis_replace_frame"
+        android:tooltipText="@string/analysis_replace_frame" />
+
+    <item
+        android:id="@+id/menu_analysis_new_meter"
+        android:enabled="false"
+        android:icon="@drawable/ic_all_add"
+        android:title="@string/analysis_new_meter"
+        android:tooltipText="@string/analysis_new_meter" />
+
+    <item
+        android:id="@+id/menu_analysis_devicesettings"
+        android:icon="@drawable/ic_all_devicesettings"
+        android:title="@string/all_devicesettings"
+        android:tooltipText="@string/all_devicesettings" />
+
+    <item
+        android:id="@+id/menu_analysis_diagnosis"
+        android:enabled="false"
+        android:icon="@drawable/ic_analysis_diagnosis"
+        android:title="@string/analysis_diagnosis"
+        android:tooltipText="@string/analysis_diagnosis" />
+</menu>

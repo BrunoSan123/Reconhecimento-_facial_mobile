@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Flir Device Preferences-->
+    <string name="flirsettings_category_device_key">device_category</string>
+    <string name="flirsettings_category_device_title">Dispositivo</string>
+
+    <string name="flirsettings_devicestate_key">device_state</string>
+    <string name="flirsettings_devicestate_title">Dispositivo FLIR</string>
+    <string-array name="flirsettings_devicestate_values">
+        <item>Desconectado</item>
+        <item>Conectado</item>
+        <item>USB</item>
+        <item>Embutido</item>
+    </string-array>
+
+    <string name="flirsettings_batterystate_key">battery_state</string>
+    <string name="flirsettings_batterystate_title">Status da bateria</string>
+    <string-array name="flirsettings_batterystate_values">
+        <item>Carregador desconectado</item>
+        <item>Carregando</item>
+        <item>Falha</item>
+        <item>Falha: Superaquecido</item>
+        <item>Falha: Baixa corrente</item>
+        <item>Falha no dispositivo, carregando celular</item>
+        <item>Carregando</item>
+        <item>Carregando apenas celular</item>
+        <item>Desconhecido</item>
+    </string-array>
+
+    <string name="flirsettings_batterypercentage_key">battery_percentage</string>
+    <string name="flirsettings_batterypercentage_title">Nível da bateria</string>
+    <string name="flirsettings_batterypercentage_summary">%1$d%%</string>
+
+    <string name="flirsettings_loweraccuracy_key">lower_accuracy</string>
+    <string name="flirsettings_loweraccuracy_title">Menor leitura com precisão</string>
+    <string name="flirsettings_loweraccuracy_summary">%1$.2fºC</string>
+
+    <string name="flirsettings_upperaccuracy_key">upper_accuracy</string>
+    <string name="flirsettings_upperaccuracy_title">Maior leitura com precisão</string>
+    <string name="flirsettings_upperaccuracy_summary">%1$.2fºC</string>
+
+    <string name="flirsettings_automatictuning_key">automatic_tuning</string>
+    <string name="flirsettings_automatictuning_title">Calibração automática</string>
+    <bool name="flirsettings_automatictuning_default">true</bool>
+
+    <string name="flirsettings_tuningstate_key">tuning_state</string>
+    <string name="flirsettings_tuningstate_title">Status da calibração</string>
+    <string-array name="flirsettings_tuningstate_values">
+        <item>Necessário calibrar</item>
+        <item>Calibrando...</item>
+        <item>Calibrado</item>
+        <item>Necessário calibrar</item>
+        <item>Aproximadamente calibrado</item>
+        <item>Desconhecido</item>
+    </string-array>
+
+    <string name="flisettings_performtuning_key">perform_tuning</string>
+    <string name="flisettings_performtuning_title">Solicitar calibração</string>
+    <string name="flisettings_performtuning_summary">Solicita que o dispositivo realize o processo de calibração</string>
+
+    <string name="flirsettings_category_image_key">image_category</string>
+    <string name="flirsettings_category_image_title">Imagem</string>
+
+    <string name="flirsettings_imagetype_key">image_type</string>
+    <string name="flirsettings_imagetype_title">Tipo da imagem</string>
+    <string name="flirsettings_imagetype_default">BlendedMSXRGBA8888Image</string>
+    <string-array name="flirsettings_imagetype_entries">
+        <item>Visível e termal</item>
+        <item>Apenas termal</item>
+    </string-array>
+    <string-array name="flirsettings_imagetype_entryvalues">
+        <item>BlendedMSXRGBA8888Image</item>
+        <item>ThermalRGBA8888Image</item>
+    </string-array>
+
+    <!-- TODO: Configurar valores min e max corretamente (Perguntar ao professor) -->
+    <string name="flirsettings_msxdistance_key">msx_distance</string>
+    <string name="flirsettings_msxdistance_title">Distância do objeto</string>
+    <string name="flirsettings_msxdistance_summary">%1$.1f m</string>
+    <integer name="flirsettings_msxdistance_default">0</integer>
+    <integer name="flirsettings_msxdistance_min">0</integer>
+    <integer name="flirsettings_msxdistance_max">500</integer>
+
+    <string name="flirsettings_palette_key">color_palette</string>
+    <string name="flirsettings_palette_title">Paleta de cores</string>
+    <string name="flirsettings_palette_default">Iron</string>
+    <string-array name="flirsettings_palette_entries">
+        <item>Ferro</item>
+        <item>Lava</item>
+        <item>Contraste</item>
+        <item>Mais quente</item>
+        <item>Mais frio</item>
+        <item>Ártico</item>
+        <item>Cinza</item>
+        <item>Arco-íris</item>
+        <item>Roleta</item>
+    </string-array>
+    <string-array name="flirsettings_palette_entryvalues">
+        <item>Iron</item>
+        <item>Lava</item>
+        <item>Contrast</item>
+        <item>Hottest</item>
+        <item>Coldest</item>
+        <item>Arctic</item>
+        <item>Gray</item>
+        <item>Rainbow</item>
+        <item>Wheel</item>
+    </string-array>
+
+    <string name="flirsettings_emissivity_key">emissivity</string>
+    <string name="flirsettings_emissivity_title">Emissividade</string>
+    <string name="flirsettings_emissivity_default">glossy</string>
+    <string-array name="flirsettings_emissivity_entries">
+        <item>Reflexivo (Ex: Metais)</item>
+        <item>Semi-reflexivo</item>
+        <item>Semi-fosco</item>
+        <item>Fosco (Ex: Madeira)</item>
+    </string-array>
+    <string-array name="flirsettings_emissivity_entryvalues">
+        <item>glossy</item>
+        <item>semi-glossy</item>
+        <item>semi-matte</item>
+        <item>matte</item>
+    </string-array>
+
+    
+    <!-- Diagnosis Preferences -->
+    <string name="diagnosissettings_category_parameters_key">parameters_category</string>
+    <string name="diagnosissettings_category_parameters_title">Características</string>
+    
+    <string name="diagnosissettings_material_key">material</string>
+    <string name="diagnosissettings_material_title">Material</string>
+    <string name="diagnosissettings_material_default">copper</string>
+    <string-array name="diagnosissettings_material_entries">
+        <item>Cobre</item>
+        <item>Alumínio</item>
+    </string-array>
+    <string-array name="diagnosissettings_material_entryvalues">
+        <item>copper</item>
+        <item>aluminium</item>
+    </string-array>
+
+    <string name="diagnosissettings_loading_key">loading</string>
+    <string name="diagnosissettings_loading_title">Carregamento (pu)</string>
+    <string name="diagnosissettings_loading_default">1.00</string>
+
+    <string name="diagnosissettings_category_concept_key">equipment_concept_category</string>
+    <string name="diagnosissettings_category_concept_title">Nota do equipamento</string>
+</resources>

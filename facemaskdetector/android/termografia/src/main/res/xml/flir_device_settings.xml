@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:key="@string/flirsettings_category_image_key"
+        app:title="@string/flirsettings_category_image_title">
+
+        <ListPreference
+            app:defaultValue="@string/flirsettings_palette_default"
+            app:entries="@array/flirsettings_palette_entries"
+            app:entryValues="@array/flirsettings_palette_entryvalues"
+            app:key="@string/flirsettings_palette_key"
+            app:title="@string/flirsettings_palette_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <SeekBarPreference
+            app:defaultValue="@integer/flirsettings_msxdistance_default"
+            app:key="@string/flirsettings_msxdistance_key"
+            app:showSeekBarValue="false"
+            app:title="@string/flirsettings_msxdistance_title" />
+
+        <ListPreference
+            app:defaultValue="@string/flirsettings_emissivity_default"
+            app:entries="@array/flirsettings_emissivity_entries"
+            app:entryValues="@array/flirsettings_emissivity_entryvalues"
+            app:key="@string/flirsettings_emissivity_key"
+            app:title="@string/flirsettings_emissivity_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="@string/flirsettings_imagetype_default"
+            app:entries="@array/flirsettings_imagetype_entries"
+            app:entryValues="@array/flirsettings_imagetype_entryvalues"
+            app:key="@string/flirsettings_imagetype_key"
+            app:title="@string/flirsettings_imagetype_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:isPreferenceVisible="false"
+        app:key="@string/flirsettings_category_device_key"
+        app:title="@string/flirsettings_category_device_title">
+
+        <Preference
+            app:key="@string/flirsettings_devicestate_key"
+            app:title="@string/flirsettings_devicestate_title" />
+
+        <Preference
+            app:key="@string/flirsettings_batterystate_key"
+            app:title="@string/flirsettings_batterystate_title" />
+
+        <Preference
+            app:key="@string/flirsettings_batterypercentage_key"
+            app:title="@string/flirsettings_batterypercentage_title" />
+
+        <Preference
+            app:key="@string/flirsettings_loweraccuracy_key"
+            app:title="@string/flirsettings_loweraccuracy_title" />
+
+        <Preference
+            app:key="@string/flirsettings_upperaccuracy_key"
+            app:title="@string/flirsettings_upperaccuracy_title" />
+
+        <SwitchPreferenceCompat
+            app:defaultValue="@bool/flirsettings_automatictuning_default"
+            app:key="@string/flirsettings_automatictuning_key"
+            app:title="@string/flirsettings_automatictuning_title" />
+
+        <Preference
+            app:key="@string/flirsettings_tuningstate_key"
+            app:title="@string/flirsettings_tuningstate_title" />
+
+        <Preference
+            app:key="@string/flisettings_performtuning_key"
+            app:summary="@string/flisettings_performtuning_summary"
+            app:title="@string/flisettings_performtuning_title" />
+
+    </PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>

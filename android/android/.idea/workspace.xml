@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="522196ab-8aa0-4f86-90f2-69f9eae4fcb7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apk/facemask_demo.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/download_model.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/androidTest/assets/table.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/androidTest/assets/table_results.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/androidTest/java/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/androidTest/java/org/tensorflow/lite/examples/detection/DetectorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/mask_detector.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/assets/mask_labelmap.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/ic_launcher_facemask-playstore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/br/ufg/emc/termografia/FlirProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/br/ufg/emc/termografia/Meter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/br/ufg/emc/termografia/ThermalData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/br/ufg/emc/termografia/diagnosis/BushingDiagnoser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/br/ufg/emc/termografia/diagnosis/Concept.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/br/ufg/emc/termografia/diagnosis/Material.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/br/ufg/emc/termografia/ui/AnalysisActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/br/ufg/emc/termografia/ui/CadastrarActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/br/ufg/emc/termografia/ui/DiagnosisDialogFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/br/ufg/emc/termografia/ui/DiagnosisSettingsFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/br/ufg/emc/termografia/ui/FlirDeviceDialogFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/br/ufg/emc/termografia/ui/FlirSettingsFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/br/ufg/emc/termografia/ui/MascaraActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/br/ufg/emc/termografia/ui/MeterActionsDialogFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/br/ufg/emc/termografia/ui/PreviewActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/br/ufg/emc/termografia/ui/ThermometerSurfaceView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/br/ufg/emc/termografia/util/Converter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/br/ufg/emc/termografia/util/ExternalStorageUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/br/ufg/emc/termografia/util/FileUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/br/ufg/emc/termografia/util/NumberTextWatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/br/ufg/emc/termografia/util/Preferences.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/br/ufg/emc/termografia/util/RelativePoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/br/ufg/emc/termografia/viewmodel/DiagnosisViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/br/ufg/emc/termografia/viewmodel/ThermalFrameViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/br/ufg/emc/termografia/viewmodel/ThermalImageViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/org/tensorflow/lite/examples/detection/CameraActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/org/tensorflow/lite/examples/detection/CameraConnectionFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/org/tensorflow/lite/examples/detection/DetectorActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/org/tensorflow/lite/examples/detection/LegacyCameraConnectionFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/org/tensorflow/lite/examples/detection/customview/AutoFitTextureView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/org/tensorflow/lite/examples/detection/customview/OverlayView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/org/tensorflow/lite/examples/detection/customview/RecognitionScoreView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/org/tensorflow/lite/examples/detection/customview/ResultsView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/org/tensorflow/lite/examples/detection/env/BorderedText.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/org/tensorflow/lite/examples/detection/env/ImageUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/org/tensorflow/lite/examples/detection/env/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/org/tensorflow/lite/examples/detection/env/Size.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/org/tensorflow/lite/examples/detection/tflite/Classifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/org/tensorflow/lite/examples/detection/tflite/TFLiteObjectDetectionAPIModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/org/tensorflow/lite/examples/detection/tracking/MultiBoxTracker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/drawable-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/drawable-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/drawable-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/drawable-xxhdpi/icn_chevron_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/drawable-xxhdpi/icn_chevron_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/drawable-xxhdpi/tfl2_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/drawable-xxhdpi/tfl2_logo_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/drawable-xxxhdpi/caret.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/drawable-xxxhdpi/chair.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/drawable-xxxhdpi/sample_image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/drawable/bottom_sheet_bg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/drawable/ic_baseline_add.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/drawable/ic_baseline_remove.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/drawable/ic_baseline_switch_camera_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/drawable/ic_launcher_facemask_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/drawable/rectangle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/tfe_od_activity_camera.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/tfe_od_camera_connection_fragment_tracking.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/tfe_od_layout_bottom_sheet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-anydpi-v26/ic_launcher_facemask.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-anydpi-v26/ic_launcher_facemask_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-hdpi/ic_launcher_facemask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-hdpi/ic_launcher_facemask_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-mdpi/ic_launcher_facemask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-mdpi/ic_launcher_facemask_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-xhdpi/ic_launcher_facemask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-xhdpi/ic_launcher_facemask_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxhdpi/ic_launcher_facemask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxhdpi/ic_launcher_facemask_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxxhdpi/ic_launcher_facemask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxxhdpi/ic_launcher_facemask_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/values/ic_launcher_facemask_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/demo1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/demo2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/1e91aab73bec13ca23a6c0874515acdb.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/1e91aab73bec13ca23a6c0874515acdb/jetified-flironesdk/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/1e91aab73bec13ca23a6c0874515acdb/jetified-flironesdk/R.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/1e91aab73bec13ca23a6c0874515acdb/jetified-flironesdk/annotations.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/1e91aab73bec13ca23a6c0874515acdb/jetified-flironesdk/jars/classes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/1e91aab73bec13ca23a6c0874515acdb/jetified-flironesdk/jni/armeabi-v7a/libmbwrapper.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/1e91aab73bec13ca23a6c0874515acdb/jetified-flironesdk/jni/armeabi-v7a/libsystemimage.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/1e91aab73bec13ca23a6c0874515acdb/jetified-flironesdk/res/raw/arctic.pal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/1e91aab73bec13ca23a6c0874515acdb/jetified-flironesdk/res/raw/blackhot.pal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/1e91aab73bec13ca23a6c0874515acdb/jetified-flironesdk/res/raw/bw.pal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/1e91aab73bec13ca23a6c0874515acdb/jetified-flironesdk/res/raw/coldest.pal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/1e91aab73bec13ca23a6c0874515acdb/jetified-flironesdk/res/raw/colorwheel12.pal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/1e91aab73bec13ca23a6c0874515acdb/jetified-flironesdk/res/raw/colorwheel6.pal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/1e91aab73bec13ca23a6c0874515acdb/jetified-flironesdk/res/raw/default_camera_files.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/1e91aab73bec13ca23a6c0874515acdb/jetified-flironesdk/res/raw/hottest.pal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/1e91aab73bec13ca23a6c0874515acdb/jetified-flironesdk/res/raw/iron.pal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/1e91aab73bec13ca23a6c0874515acdb/jetified-flironesdk/res/raw/lava.pal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/1e91aab73bec13ca23a6c0874515acdb/jetified-flironesdk/res/raw/rainbow.pal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/1e91aab73bec13ca23a6c0874515acdb/jetified-flironesdk/res/raw/rainhc.pal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/1e91aab73bec13ca23a6c0874515acdb/jetified-flironesdk/res/raw/whitehot.pal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/1e91aab73bec13ca23a6c0874515acdb/jetified-flironesdk/res/values/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/2395f23cf738cce1d9cc49c242124736.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/39a703440444294b29815daaabba541f.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/4a3b6c39604ca46cba942ae3b937fd89.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/4a3b6c39604ca46cba942ae3b937fd89/jetified-flironesdk.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/5e1db9b78f0e4488a42fb62ffb2d2c23.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/6b5f4a05d4cc75ac80e1b141d3a4f6ae.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/9085ca6b928b638ac36a3a6251977100.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/9085ca6b928b638ac36a3a6251977100/com.flir.flironesdk/raw_arctic.pal.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/9085ca6b928b638ac36a3a6251977100/com.flir.flironesdk/raw_blackhot.pal.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/9085ca6b928b638ac36a3a6251977100/com.flir.flironesdk/raw_bw.pal.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/9085ca6b928b638ac36a3a6251977100/com.flir.flironesdk/raw_coldest.pal.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/9085ca6b928b638ac36a3a6251977100/com.flir.flironesdk/raw_colorwheel12.pal.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/9085ca6b928b638ac36a3a6251977100/com.flir.flironesdk/raw_colorwheel6.pal.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/9085ca6b928b638ac36a3a6251977100/com.flir.flironesdk/raw_default_camera_files.zip.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/9085ca6b928b638ac36a3a6251977100/com.flir.flironesdk/raw_hottest.pal.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/9085ca6b928b638ac36a3a6251977100/com.flir.flironesdk/raw_iron.pal.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/9085ca6b928b638ac36a3a6251977100/com.flir.flironesdk/raw_lava.pal.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/9085ca6b928b638ac36a3a6251977100/com.flir.flironesdk/raw_rainbow.pal.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/9085ca6b928b638ac36a3a6251977100/com.flir.flironesdk/raw_rainhc.pal.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/9085ca6b928b638ac36a3a6251977100/com.flir.flironesdk/raw_whitehot.pal.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/b36502c1052bcfca0aca4db7a8ad3797.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/b36502c1052bcfca0aca4db7a8ad3797/com.flir.flironesdk-r.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/e0f356fa821f813d10784951c6078e29.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/build/.transforms/e0f356fa821f813d10784951c6078e29/jetified-flironesdk-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flironesdk/flironesdk.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../local.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../settings.gradle" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1dy3o6Q6EeqE4ZesWLyU8WroF0x" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_3a_API_R" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-06-30T17:23:15.336Z" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/thermalsdk-release.aar" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Properties" />
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.ufg.emc.termografia.ui" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.ufg.emc.termografia" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projetos Android\Integrados\android\android\app\src\main\res\raw" />
+      <recent name="D:\Projetos Android\Integrados\android\android\app\src\main\res" />
+      <recent name="D:\Projetos Android\Integrados\android\android\app\src\main\res\menu" />
+      <recent name="D:\Projetos Android\Integrados\android\android\app\src\main\res\values" />
+      <recent name="D:\Projetos Android\Integrados\android\android\app\src\main\res\layout" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="522196ab-8aa0-4f86-90f2-69f9eae4fcb7" name="Default Changelist" comment="" />
+      <created>1593383677468</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593383677468</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="154" key="#PSD" timestamp="1593549732252">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="361" y="154" key="#PSD/0.0.1360.728@0.0.1360.728" timestamp="1593549732252" />
+    <state x="430" y="197" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593548513197">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="430" y="197" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1360.728@0.0.1360.728" timestamp="1593548513197" />
+    <state x="455" y="233" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.860@0.0.1440.860" timestamp="1593546246937" />
+    <state x="414" y="93" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593550181643">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="414" y="93" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1360.728@0.0.1360.728" timestamp="1593550181643" />
+    <state x="427" y="201" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1593476729722">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="427" y="201" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1360.728@0.0.1360.728" timestamp="1593476729722" />
+    <state x="300" y="185" key="AndroidCreateResourceDirectoryDialog" timestamp="1593545950275">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="300" y="185" key="AndroidCreateResourceDirectoryDialog/0.0.1440.860@0.0.1440.860" timestamp="1593545950275" />
+    <state x="300" y="185" key="AndroidCreateResourceFileDialog" timestamp="1593539599688">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="300" y="185" key="AndroidCreateResourceFileDialog/0.0.1440.860@0.0.1440.860" timestamp="1593539599688" />
+    <state x="526" y="243" key="AndroidCreateXmlResourceDialog" timestamp="1593541171011">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="526" y="243" key="AndroidCreateXmlResourceDialog/0.0.1440.860@0.0.1440.860" timestamp="1593541171011" />
+    <state x="535" y="129" key="AndroidProcessChooserDialog" timestamp="1593471930183">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="535" y="129" key="AndroidProcessChooserDialog/0.0.1360.728@0.0.1360.728" timestamp="1593471930183" />
+    <state x="472" y="141" key="FileChooserDialogImpl" timestamp="1593549691132">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="472" y="141" key="FileChooserDialogImpl/0.0.1360.728@0.0.1360.728" timestamp="1593549691132" />
+    <state width="1397" height="222" key="GridCell.Tab.0.bottom" timestamp="1593546394683">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1280" height="163" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1593390117632" />
+    <state width="1397" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1593546394683" />
+    <state width="1397" height="222" key="GridCell.Tab.0.center" timestamp="1593546394683">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1280" height="163" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1593390117631" />
+    <state width="1397" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1593546394683" />
+    <state width="1397" height="222" key="GridCell.Tab.0.left" timestamp="1593546394682">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1280" height="163" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1593390117631" />
+    <state width="1397" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1593546394682" />
+    <state width="1397" height="222" key="GridCell.Tab.0.right" timestamp="1593546394683">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1280" height="163" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1593390117632" />
+    <state width="1397" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1593546394683" />
+    <state x="185" y="0" key="SettingsEditor" timestamp="1593547838884">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="185" y="0" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1593547838884" />
+    <state x="387" y="210" key="com.intellij.ide.util.TipDialog" timestamp="1593464477847">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="387" y="210" key="com.intellij.ide.util.TipDialog/0.0.1360.728@0.0.1360.728" timestamp="1593464477847" />
+    <state x="434" y="122" key="com.intellij.javaee.MapExternalResourceDialog" timestamp="1593542704978">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="434" y="122" key="com.intellij.javaee.MapExternalResourceDialog/0.0.1440.860@0.0.1440.860" timestamp="1593542704978" />
+    <state x="376" y="82" width="672" height="676" key="search.everywhere.popup" timestamp="1593546405497">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="376" y="82" width="672" height="676" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1593546405497" />
+  </component>
+</project>

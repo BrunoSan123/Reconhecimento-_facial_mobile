@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_all_default">16dp</dimen>
+    <dimen name="margin_all_default_half">8dp</dimen>
+    <dimen name="margin_all_default_double">32dp</dimen>
+
+    <dimen name="padding_all_default">16dp</dimen>
+    <dimen name="padding_all_default_half">8dp</dimen>
+    <dimen name="padding_all_default_double">32dp</dimen>
+
+    <!--PreviewActivity-->
+    <dimen name="textsize_preview_connectdevice_large">40sp</dimen>
+
+    <!--ThermometerSurfaceView-->
+    <dimen name="size_thermometer_meter_bound">40dp</dimen>
+    <dimen name="size_thermometer_meter_outer">30dp</dimen>
+    <dimen name="size_thermometer_meter_inner">6dp</dimen>
+    <dimen name="textsize_thermometer_paint">10sp</dimen>
+    <dimen name="margin_thermometer_text">3dp</dimen>
+</resources>

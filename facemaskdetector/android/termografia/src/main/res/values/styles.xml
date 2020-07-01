@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.BottomSheetListItem">
+        <item name="android:textAppearance">?textAppearanceListItem</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?listPreferredItemHeight</item>
+        <item name="android:background">?listChoiceBackgroundIndicator</item>
+        <item name="android:paddingStart">?listPreferredItemPaddingStart</item>
+        <item name="android:paddingEnd">?listPreferredItemPaddingEnd</item>
+        <item name="android:drawablePadding">@dimen/padding_all_default</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+</resources>

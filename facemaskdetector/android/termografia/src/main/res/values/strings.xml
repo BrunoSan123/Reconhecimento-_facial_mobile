@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Termografia</string>
+    <string name="all_open">Abrir</string>
+    <string name="all_close">Fechar</string>
+    <string name="all_devicesettings">Configurações</string>
+
+    <!--PreviewActivity-->
+    <string name="preview_title">Pré-visualização</string>
+    <string name="preview_connectdevice">Conecte sua\nFLIR One</string>
+    <string name="preview_capture">Capturar</string>
+    <string name="preview_analyze">Analisar</string>
+    <string name="preview_capture_success">Imagem capturada com sucesso!</string>
+    <string name="preview_capture_error">Ocorreu um erro ao capturar a imagem...</string>
+
+    <!--AnalysisActivity-->
+    <string name="analysis_label">Análise Termográfica</string>
+    <string name="analysis_replace_frame">Alterar Foto</string>
+    <string name="analysis_new_meter">Novo Medidor</string>
+    <string name="analysis_diagnosis">Diagnóstico</string>
+    <string name="analysis_load_error">A imagem não existe ou não é uma imagem termográfica...</string>
+
+    <!--FlirDeviceDialogFragment-->
+    <string name="flirdevice_title">Configurações</string>
+    <string name="flirdevice_tuning_requested">Processo de calibração solicitado</string>
+    <string name="flirdevice_tuning_request_error">Não foi possível solicitar calibração</string>
+
+    <!--MeterActionsDialogFragment-->
+    <string name="meter_actions_name">Medidor %1$d</string>
+    <string name="meter_actions_name_ambient">Ambiente</string>
+    <string name="meter_actions_temperature">Absoluta: %1$.1f°C &#177; %2$.1f%%</string>
+    <string name="meter_actions_temperature_relative">Relativa: %1$+.1f°C</string>
+    <string name="meter_actions_remove">Remover</string>
+    <string name="meter_actions_concept_description">Nota conceito do medidor</string>
+
+    <!--ThermometerSurfaceView-->
+    <string name="thermometer_temperature">%1$.1f ºC</string>
+
+    <!--DiagnosisDialogFragment-->
+    <string name="diagnosis_title">Diagnóstico</string>
+    <string name="diagnosis_loading">Calculando nota para o material e carregamento especificados...</string>
+    <string name="diagnosis_insufficient_meters">Adicione mais medidores para calcular a nota do equipamento.</string>
+    <string name="diagnosis_error">Não foi possível realizar o diagnóstico!</string>
+</resources>

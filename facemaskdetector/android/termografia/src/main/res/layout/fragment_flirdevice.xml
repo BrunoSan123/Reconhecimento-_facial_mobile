@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ui.FlirDeviceDialogFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_flirdevice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        app:title="@string/flirdevice_title"
+        app:titleTextColor="@color/dark_bg_light_primary_text" />
+
+    <FrameLayout
+        android:id="@+id/viewgroup_flirdevice_fragmentcontainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_flirdevice" />
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/gray_700</color>
+    <color name="colorPrimaryDark">@color/gray_900</color>
+    <color name="colorAccent">@color/blue_gray_600</color>
+
+    <color name="meter_default">@color/gray_300</color>
+    <color name="meter_ambient">@color/light_green_300</color>
+
+    <color name="concept_a">@color/green_600</color>
+    <color name="concept_b">@color/lime_600</color>
+    <color name="concept_c">@color/yellow_600</color>
+    <color name="concept_d">@color/orange_600</color>
+    <color name="concept_e">@color/red_600</color>
+</resources>

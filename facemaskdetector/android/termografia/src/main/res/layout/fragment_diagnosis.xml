@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ui.DiagnosisDialogFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_diagnosis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:title="@string/diagnosis_title"
+        app:titleTextColor="@color/dark_bg_light_primary_text" />
+
+    <FrameLayout
+        android:id="@+id/viewgroup_diagnosis_fragmentcontainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textview_diagnosis_status"
+        style="?textAppearanceSubtitle1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_all_default_double"
+        android:layout_marginTop="@dimen/margin_all_default"
+        android:layout_marginEnd="@dimen/margin_all_default_double"
+        android:layout_marginBottom="@dimen/margin_all_default_double"
+        android:gravity="center_horizontal"
+        android:text="@string/diagnosis_insufficient_meters"
+        android:textColor="@color/light_bg_dark_hint_text" />
+
+    <LinearLayout
+        android:id="@+id/viewgroup_diagnosis_loading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_all_default_double"
+        android:layout_marginTop="@dimen/margin_all_default"
+        android:layout_marginEnd="@dimen/margin_all_default_double"
+        android:layout_marginBottom="@dimen/margin_all_default_double"
+        android:orientation="horizontal">
+
+        <com.github.ybq.android.spinkit.SpinKitView
+            style="@style/SpinKitView.DoubleBounce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:SpinKit_Color="@color/light_bg_dark_hint_text" />
+
+        <TextView
+            style="?textAppearanceSubtitle1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/margin_all_default"
+            android:text="@string/diagnosis_loading"
+            android:textColor="@color/light_bg_dark_hint_text" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textview_diagnosis_concept"
+        style="?textAppearanceHeadline1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_all_default"
+        android:layout_marginEnd="@dimen/margin_all_default"
+        android:layout_marginBottom="@dimen/margin_all_default"
+        android:gravity="center_horizontal"
+        android:visibility="gone" />
+
+</LinearLayout>

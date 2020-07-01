@@ -1,0 +1,6 @@
+include ':termografia'
+include ':flironesdk'
+include ':thermalsdk-release'
+include ':androidsdk-release'
+include ':mylibrary-release'
+include ':app' ,':tensorflow-lite'

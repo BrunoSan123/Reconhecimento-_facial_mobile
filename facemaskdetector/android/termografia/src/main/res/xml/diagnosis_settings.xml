@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:key="@string/diagnosissettings_category_parameters_key"
+        app:title="@string/diagnosissettings_category_parameters_title">
+
+        <ListPreference
+            app:defaultValue="@string/diagnosissettings_material_default"
+            app:entries="@array/diagnosissettings_material_entries"
+            app:entryValues="@array/diagnosissettings_material_entryvalues"
+            app:key="@string/diagnosissettings_material_key"
+            app:title="@string/diagnosissettings_material_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:defaultValue="@string/diagnosissettings_loading_default"
+            app:key="@string/diagnosissettings_loading_key"
+            app:title="@string/diagnosissettings_loading_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="@string/diagnosissettings_category_concept_key"
+        app:title="@string/diagnosissettings_category_concept_title" />
+
+</androidx.preference.PreferenceScreen>

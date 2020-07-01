@@ -1,2 +1,0 @@
-include ':flironesdk'
-include ':app' ,':tensorflow-lite'

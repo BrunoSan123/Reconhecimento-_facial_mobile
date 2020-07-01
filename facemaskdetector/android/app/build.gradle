@@ -1,0 +1,75 @@
+apply plugin: 'com.android.application'
+apply plugin: 'de.undercouch.download'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion '28.0.3'
+    defaultConfig {
+        applicationId "org.tensorflow.lite.examples.facemask"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        repositories {
+            // default path where thermalsdk AAR is stored
+            flatDir dirs: '../../../modules/thermalsdk/build/outputs/aar'
+            // default path where androidsdk AAR is stored
+            flatDir dirs: '../../../modules/androidsdk/build/outputs/aar'
+            // superproject path where all required AARs are stored (for local debug builds only)
+            flatDir dirs: '../../../MastodonAndroid/prebuilt-aar'
+        }
+    }
+    aaptOptions {
+        noCompress "tflite"
+    }
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+
+// import DownloadModels task
+project.ext.ASSET_DIR = projectDir.toString() + '/src/main/assets'
+project.ext.TMP_DIR   = project.buildDir.toString() + '/downloads'
+
+// Download default models; if you wish to use your own models then
+// place them in the "assets" directory and comment out this line.
+//apply from: "download_model.gradle"
+
+//apply from:'download_model.gradle'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar','*.aar'])
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'androidx.coordinatorlayout:coordinatorlayout:1.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation('org.tensorflow:tensorflow-lite:0.0.0-nightly') { changing = true }
+    implementation project(path: ':termografia')
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'com.android.support.test:rules:1.0.2'
+    androidTestImplementation 'com.google.truth:truth:1.0.1'
+
+    implementation project(path: ':mylibrary-release')
+    implementation project (path: ':androidsdk-release')
+    implementation project (path: ':thermalsdk-release')
+    implementation project(path: ':flironesdk')
+    implementation 'org.jetbrains:annotations:15.0'
+    implementation 'com.github.florent37:runtime-permission:1.1.0'
+    implementation 'com.github.ybq:Android-SpinKit:1.2.0'
+
+
+    // added MLKit dependencies for face detector
+    implementation 'com.google.mlkit:face-detection:16.0.0'
+
+}
