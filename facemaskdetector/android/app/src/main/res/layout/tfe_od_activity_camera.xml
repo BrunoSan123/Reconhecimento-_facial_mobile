@@ -19,6 +19,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/root_preview"
     android:background="#00000000">
 
     <RelativeLayout
@@ -27,6 +28,8 @@
         android:layout_height="match_parent"
         android:background="@android:color/black"
         android:orientation="vertical">
+
+
 
 
         <FrameLayout
@@ -40,9 +43,9 @@
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
+            android:layout_height="56dp"
             android:layout_alignParentTop="true"
-            android:layout_alignParentBottom="true"
+            android:layout_alignParentBottom="false"
             android:background="@color/tfe_color_accent">
 
 
@@ -81,6 +84,19 @@
             android:textColor="@color/cardview_light_background"
             android:visibility="gone" />
 
+        <TextView
+            android:id="@+id/textview_preview_connectdevice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/preview_connectdevice"
+            android:textAlignment="center"
+            android:textColor="@color/dark_bg_light_hint_text"
+            android:textSize="@dimen/textsize_preview_connectdevice_large"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
 
     </RelativeLayout>
 
@@ -91,74 +107,30 @@
 
     <!-- Start / Stop discovery buttons  -->
 
-
-    <LinearLayout
-        android:id="@+id/layoutCamFlir"
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomnavigationview_preview_actions"
+        style="@style/Widget.MaterialComponents.BottomNavigationView.Colored"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        app:labelVisibilityMode="unlabeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/activity_preview_actions" />
 
-        <ImageView
-            android:id="@+id/msx_image"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:contentDescription="image with IR and visual data mixed"
-            android:maxWidth="50dp"
-            android:minWidth="50dp" />
+    <android.opengl.GLSurfaceView
+        android:id="@+id/glsurfaceview_preview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="3:4"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageView
-            android:id="@+id/photo_image"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:contentDescription="image with only visual image"
-            android:maxWidth="50dp"
-            android:minWidth="50dp" />
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearStartStop"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="bottom"
-        android:orientation="horizontal">
-
-
-
-        <Button
-            android:id="@+id/connect_flir_one"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:onClick="Conectar"
-            android:text="Connect" />
-
-        <Button
-            android:id="@+id/disconnect_any"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:onClick="Disconectar"
-            android:text="Disconect" />
-
-        <Button
-            android:id="@+id/start_discovery"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:onClick="startDiscovery"
-
-            android:text="Start" />
-
-        <Button
-            android:id="@+id/stop_discovery"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:onClick="stopDiscovery"
-            android:text="Stop" />
-    </LinearLayout>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"
@@ -167,34 +139,6 @@
         android:layout_gravity="end|top"
         android:src="@drawable/ic_baseline_switch_camera_24"
         android:layout_margin="16dp" />
-
-    <LinearLayout
-        android:id="@+id/linearStatus"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="8dp"
-        android:gravity="top"
-        android:orientation="horizontal">
-
-        <TextView
-            android:id="@+id/discovery_status"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom|center"
-            android:layout_marginBottom="30dp"
-            android:layout_weight="1"
-            android:text="@string/discovery_status_text"
-            android:textSize="18sp" />
-
-        <TextView
-            android:id="@+id/connection_status_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom|center"
-            android:layout_marginBottom="30dp"
-            android:layout_weight="1"
-            android:text="@string/connection_status_text" />
-    </LinearLayout>
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
