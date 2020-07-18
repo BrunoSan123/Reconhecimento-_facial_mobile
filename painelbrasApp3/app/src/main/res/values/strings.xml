@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">PainelBras</string>
+    <string name="tfe_od_app_name" translation_description="Object Detection demo app [CHAR_LIMIT=40]">PainelBras</string>
+    <string name="tfe_od_camera_error" translation_description="Error regarding camera support[CHAR_LIMIT=40]">This device doesn\'t support Camera2 API.</string>
+    <string name="btn_connect_flir" translation_description="Button to connect Flir Camera">Conectar FLIR</string>
+    <string name="btn_disconnect_flir" translation_description="Button to disconnect Flir Camera">Desconectar FLIR</string>
+    <string name="tfe_has_mask" translatable_description="Mask detected message">Com máscara</string>
+    <string name="tfe_no_mask" translatable_description="Mask detected message">Sem máscara</string>
+    <string name="title_activity_process">ProcessActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+    <string name="permission_warning">Para continuar habilite a câmera e o armazenamento</string>
+    <string name="dismiss">Dispensar</string>
+    <string name="unknown">Desconhecido</string>
+    <string name="texto_tutorial">Para fazer o reconhecimento Facial
+        Precisamos de 25 fotos do seu rosto, Iremos iniciar
+        o App com a Câmera e ao fazer a caputura dessas fotos
+        tente movimentar a cabeça para tirar a fotos de diferente ângulos</string>
+</resources>

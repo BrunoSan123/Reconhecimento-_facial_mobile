@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "219579731934",
+    "firebase_url": "https://painelbras-c055e.firebaseio.com",
+    "project_id": "painelbras-c055e",
+    "storage_bucket": "painelbras-c055e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219579731934:android:fa615bc91c87f04cc3174f",
+        "android_client_info": {
+          "package_name": "com.sato.maskdetector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219579731934-n3th3tmimutr9u3t8dvmd836ums5cfpl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sato.maskdetector",
+            "certificate_hash": "e9e3873986f21003a7cd1e0a842412b0aa33a994"
+          }
+        },
+        {
+          "client_id": "219579731934-34iubae3lb63ipm4ltvbojt62kt1nmri.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBx-VjSNJCF0Uxyw9ejsjQ9vU4OpJ7ETUI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219579731934-34iubae3lb63ipm4ltvbojt62kt1nmri.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
