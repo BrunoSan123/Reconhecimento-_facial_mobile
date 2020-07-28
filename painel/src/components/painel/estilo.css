@@ -1,0 +1,96 @@
+body{
+    background-color: #F5F5F5;
+}
+
+
+.cadastro{
+    width: 250px;
+    height: 250px;
+    margin-top: 200px;
+    margin-left:  250px;
+    background-color: #7FFFD4;
+    border-radius: 20px;
+    box-shadow: 4px 2px 5px;
+    cursor: pointer;
+    
+
+   
+    
+}
+
+  .link{
+     text-decoration: none;
+}
+
+.cadastro:hover{
+    background-color: #3CB371;
+    transition: 0.4s;
+}
+
+.cadastro2:hover{
+    background-color: #3CB371;
+    transition: 0.4s;
+}
+
+
+.cadastro3:hover{
+    background-color: #3CB371;
+    transition: 0.4s;
+}
+
+
+
+
+.fa-customize{
+    font-size: 150px;
+    margin-left: 58px;
+    margin-top: 15px;
+    color: white;
+    box-shadow: 2px;
+}
+
+
+
+
+.cadastro2{
+    width: 250px;
+    height: 250px;
+    margin-top: -250px;
+    margin-left: 600px;
+    background-color: #7FFFD4;
+    border-radius: 20px;
+    box-shadow: 4px 2px 5px;
+    cursor: pointer;
+    float: left;
+
+    
+}
+
+.cadastro3{
+    width: 250px;
+    height: 250px;
+    margin-top: -250px;
+    margin-left: 950px;
+    background-color: #7FFFD4;
+    border-radius: 20px;
+    box-shadow: 4px 2px 5px;
+    cursor: pointer;
+    float: left;
+}
+
+h3{
+    color:white;
+    font-size: 30px;
+    margin-left: 55px;
+}
+
+h1{
+    margin-left: 500px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    margin-top: 100px;
+}
+
+.link{
+    list-style: none;
+}
